@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/EnigmaKit.svg?style=flat)](http://cocoapods.org/pods/EnigmaKit)
 [![License](https://img.shields.io/cocoapods/l/EnigmaKit.svg?style=flat)](http://cocoapods.org/pods/EnigmaKit)
 [![Platform](https://img.shields.io/cocoapods/p/EnigmaKit.svg?style=flat)](http://cocoapods.org/pods/EnigmaKit)
+![Alt text](enigma.gif "Enigma")
 
 ## Usage
 ```swift
@@ -13,24 +14,24 @@ let result = enigma.encode("Hello world")
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-### Plugboard
+#### Plugboard
 ```swift
 // Create a plugboard and add a patch between A and D
 let plugboard = Plugboard()
 plugboard.addPatch(("A", "D"))
 ```
-### Rotor
+#### Rotor
 ```swift
 // III rotor
 let rotor = Rotor.III
 rotor.setting = 5 // Internal ring position
 rotor.position = 6 // Outer ring position
 ```
-### Reflector
+#### Reflector
 ```swift
 let rotor = Reflector.B
 ```
-### Enigma
+#### Enigma
 ```swift
 // Create an enigma with your own plugboard, rotors and reflector of choice
 let enigma = Enigma(plugboard: Plugboard(), rotors: [Rotor.III, Rotor.IV, Rotor.II], reflector: Reflector.C)
