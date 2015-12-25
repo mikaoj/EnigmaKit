@@ -31,10 +31,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        Enigma(plugboard: Plugboard(), rotors: [Rotor.III, Rotor.IV, Rotor.II], reflector: Reflector.C)
-        
-        let rotor = Reflector.B
     }
     
     @IBAction func handleButtonPressed(sender: UIButton) {
