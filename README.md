@@ -9,7 +9,14 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+### Plugboard
+
+### Rotor
+
+### Reflector
+
 ## Requirements
+Don't mention the war
 
 ## Installation
 
