@@ -30,7 +30,7 @@ class EnigmaTests: XCTestCase {
     override func setUp() {
         super.setUp()
         
-        enigma = Enigma(plugboard: Plugboard(patches: []), rotors: [Rotor.III, Rotor.II, Rotor.I], reflector: Reflector.B)
+        enigma = Enigma()
     }
     
     override func tearDown() {

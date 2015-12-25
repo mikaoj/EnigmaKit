@@ -58,6 +58,13 @@ public class Enigma {
         return String(characters.map { encodeCharacter($0) })
     }
     
+    /**
+     Decodes a string
+     */
+    public func decode(string: String) -> String {
+        return encode(string)
+    }
+    
     func encodeCharacter(character: Character) -> Character {
         var encoded = character
         

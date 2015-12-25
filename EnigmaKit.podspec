@@ -1,8 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = "EnigmaKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of EnigmaKit."
+  s.summary          = "Enigma encryption in Swift."
   s.description      = <<-DESC
+  Enigma encryption/decryption in Swift.
                        DESC
 
   s.homepage         = "https://github.com/mikaoj/EnigmaKit"

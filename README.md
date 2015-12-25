@@ -6,14 +6,35 @@
 [![Platform](https://img.shields.io/cocoapods/p/EnigmaKit.svg?style=flat)](http://cocoapods.org/pods/EnigmaKit)
 
 ## Usage
+```swift
+let enigma = Enigma() // Will create an Enigma with an empty plugboard, rotors I, II, III and reflector B (wide).
+let result = enigma.encode("Hello world")
+```
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ### Plugboard
-
+```swift
+// Create a plugboard and add a patch between A and D
+let plugboard = Plugboard()
+plugboard.addPatch(("A", "D"))
+```
 ### Rotor
-
+```swift
+// III rotor
+let rotor = Rotor.III
+rotor.setting = 5 // Internal ring position
+rotor.position = 6 // Outer ring position
+```
 ### Reflector
+```swift
+let rotor = Reflector.B
+```
+### Enigma
+```swift
+// Create an enigma with your own plugboard, rotors and reflector of choice
+let enigma = Enigma(plugboard: Plugboard(), rotors: [Rotor.III, Rotor.IV, Rotor.II], reflector: Reflector.C)
+```
 
 ## Requirements
 Don't mention the war
