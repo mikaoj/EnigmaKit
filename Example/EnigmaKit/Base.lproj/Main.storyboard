@@ -37,8 +37,8 @@
                                     <action selector="handleButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rSV-fw-e9O"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UqQ-u6-fvS">
-                                <rect key="frame" x="20" y="285" width="560" height="33"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UqQ-u6-fvS">
+                                <rect key="frame" x="20" y="285" width="560" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="7tA-3R-3Kb"/>
