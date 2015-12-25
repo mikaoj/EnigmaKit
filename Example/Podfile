@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'EnigmaKit_Example', :exclusive => true do
+  pod "EnigmaKit", :path => "../"
+end
+
+target 'EnigmaKit_Tests', :exclusive => true do
+  pod "EnigmaKit", :path => "../"
+
+  
+end
