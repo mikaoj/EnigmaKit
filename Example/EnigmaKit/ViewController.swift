@@ -7,18 +7,24 @@
 //
 
 import UIKit
+import EnigmaKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var textField: UITextField!
+    
+    let enigma = Enigma()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func handleButtonPressed(sender: UIButton) {
+        if let text = textField.text {
+            label.text = enigma.encode(text)
+        } else {
+            label.text = ""
+        }
     }
-
 }
 

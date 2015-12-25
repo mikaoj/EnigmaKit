@@ -1,0 +1,25 @@
+{
+  "name": "EnigmaKit",
+  "version": "0.1.0",
+  "summary": "A short description of EnigmaKit.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/EnigmaKit",
+  "license": "MIT",
+  "authors": {
+    "Joakim Gyllstrom": "joakim@backslashed.se"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/EnigmaKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "EnigmaKit": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

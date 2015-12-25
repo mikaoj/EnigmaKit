@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550143651C2DB9DC00FFDFBB /* EnigmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550143611C2DB9DC00FFDFBB /* EnigmaTests.swift */; };
+		550143661C2DB9DC00FFDFBB /* PlugboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550143621C2DB9DC00FFDFBB /* PlugboardTests.swift */; };
+		550143671C2DB9DC00FFDFBB /* ReflectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550143631C2DB9DC00FFDFBB /* ReflectorTests.swift */; };
+		550143681C2DB9DC00FFDFBB /* RotorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550143641C2DB9DC00FFDFBB /* RotorTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6D7C56F5FAB8DA817C6A31FA /* Pods_EnigmaKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05CC611D0E15C207D4920C4 /* Pods_EnigmaKit_Example.framework */; };
 		FB28597EE74705B0B635A5DC /* Pods_EnigmaKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8350D0F40E0E851096B05B39 /* Pods_EnigmaKit_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -31,6 +34,11 @@
 		2367C814705119198D2857C7 /* Pods-EnigmaKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnigmaKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnigmaKit_Example/Pods-EnigmaKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3CF18504D59759C65F0338A7 /* Pods-EnigmaKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnigmaKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnigmaKit_Tests/Pods-EnigmaKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3E349C00F16F0CF5EE1A5B34 /* Pods-EnigmaKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnigmaKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnigmaKit_Tests/Pods-EnigmaKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		550143601C2DB9DC00FFDFBB /* EnigmaKit_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnigmaKit_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		550143611C2DB9DC00FFDFBB /* EnigmaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnigmaTests.swift; sourceTree = "<group>"; };
+		550143621C2DB9DC00FFDFBB /* PlugboardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlugboardTests.swift; sourceTree = "<group>"; };
+		550143631C2DB9DC00FFDFBB /* ReflectorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReflectorTests.swift; sourceTree = "<group>"; };
+		550143641C2DB9DC00FFDFBB /* RotorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotorTests.swift; sourceTree = "<group>"; };
 		5C4F23695309BE0AEECC2C1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EnigmaKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnigmaKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,9 +47,8 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = EnigmaKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* EnigmaKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnigmaKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8350D0F40E0E851096B05B39 /* Pods_EnigmaKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnigmaKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9343D9F557424B47F00B7D66 /* Pods-EnigmaKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnigmaKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnigmaKit_Example/Pods-EnigmaKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8B395B7467C82C90BB71AD0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -96,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* EnigmaKit_Example.app */,
-				607FACE51AFB9204008FA782 /* Tests.xctest */,
+				607FACE51AFB9204008FA782 /* EnigmaKit_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,8 +133,12 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				550143611C2DB9DC00FFDFBB /* EnigmaTests.swift */,
+				550143621C2DB9DC00FFDFBB /* PlugboardTests.swift */,
+				550143631C2DB9DC00FFDFBB /* ReflectorTests.swift */,
+				550143641C2DB9DC00FFDFBB /* RotorTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				550143601C2DB9DC00FFDFBB /* EnigmaKit_Tests-Bridging-Header.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -200,7 +211,7 @@
 			);
 			name = EnigmaKit_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* EnigmaKit_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +220,8 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -367,7 +379,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				550143681C2DB9DC00FFDFBB /* RotorTests.swift in Sources */,
+				550143661C2DB9DC00FFDFBB /* PlugboardTests.swift in Sources */,
+				550143651C2DB9DC00FFDFBB /* EnigmaTests.swift in Sources */,
+				550143671C2DB9DC00FFDFBB /* ReflectorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +437,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -490,6 +506,7 @@
 				INFOPLIST_FILE = EnigmaKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -502,6 +519,7 @@
 				INFOPLIST_FILE = EnigmaKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -511,6 +529,7 @@
 			baseConfigurationReference = 3E349C00F16F0CF5EE1A5B34 /* Pods-EnigmaKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -521,7 +540,10 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/EnigmaKit_Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnigmaKit_Example.app/EnigmaKit_Example";
 			};
 			name = Debug;
@@ -531,13 +553,16 @@
 			baseConfigurationReference = 3CF18504D59759C65F0338A7 /* Pods-EnigmaKit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/EnigmaKit_Tests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnigmaKit_Example.app/EnigmaKit_Example";
 			};
 			name = Release;

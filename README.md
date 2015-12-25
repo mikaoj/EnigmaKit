@@ -1,6 +1,6 @@
 # EnigmaKit
 
-[![CI Status](http://img.shields.io/travis/Joakim Gyllstrom/EnigmaKit.svg?style=flat)](https://travis-ci.org/Joakim Gyllstrom/EnigmaKit)
+[![CI Status](http://img.shields.io/travis/mikaoj/EnigmaKit.svg?style=flat)](https://travis-ci.org/mikaoj/EnigmaKit)
 [![Version](https://img.shields.io/cocoapods/v/EnigmaKit.svg?style=flat)](http://cocoapods.org/pods/EnigmaKit)
 [![License](https://img.shields.io/cocoapods/l/EnigmaKit.svg?style=flat)](http://cocoapods.org/pods/EnigmaKit)
 [![Platform](https://img.shields.io/cocoapods/p/EnigmaKit.svg?style=flat)](http://cocoapods.org/pods/EnigmaKit)
@@ -22,7 +22,7 @@ pod "EnigmaKit"
 
 ## Author
 
-Joakim Gyllstrom, joakim@backslashed.se
+Joakim Gyllström, joakim@backslashed.se
 
 ## License
 
