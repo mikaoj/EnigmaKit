@@ -43,12 +43,12 @@ public class Rotor: Component {
     }
     public var setting: Int = 0
     
-    public init(name: String, wiring: [Character], notches: [Character]) {
+    public init(name: String, wirings: [Character], notches: [Character]) {
         // Make sure that we have the same number of characters in inner and outer
-        if Enigma.Alphabet.count != wiring.count { fatalError("Inner and outer ring should have the same number of character") }
+        if Enigma.Alphabet.count != wirings.count { fatalError("Inner and outer ring should have the same number of character") }
         
         self.name = name
-        self.wiring = wiring
+        self.wiring = wirings
         self.notches = notches
     }
     
@@ -88,39 +88,39 @@ public class Rotor: Component {
 
 public extension Rotor {
     // Convenience initializer
-    public convenience init(name: String, wiringString: String, notches: [Character]) {
-        self.init(name: name, wiring: Array(wiringString.characters), notches: notches)
+    public convenience init(name: String, wiring: String, notch: String) {
+        self.init(name: name, wirings: Array(wiring.characters), notches: Array(notch.characters))
     }
 
     public static var I: Rotor {
-        return Rotor(name: "I", wiringString: "EKMFLGDQVZNTOWYHXUSPAIBRCJ", notches: ["Q"])
+        return Rotor(name: "I", wiring: "EKMFLGDQVZNTOWYHXUSPAIBRCJ", notch: "Q")
     }
     
     public static var II: Rotor {
-        return Rotor(name: "II", wiringString: "AJDKSIRUXBLHWTMCQGZNPYFVOE", notches: ["E"])
+        return Rotor(name: "II", wiring: "AJDKSIRUXBLHWTMCQGZNPYFVOE", notch: "E")
     }
     
     public static var III: Rotor {
-        return Rotor(name: "III", wiringString: "BDFHJLCPRTXVZNYEIWGAKMUSQO", notches: ["V"])
+        return Rotor(name: "III", wiring: "BDFHJLCPRTXVZNYEIWGAKMUSQO", notch: "V")
     }
     
     public static var IV: Rotor {
-        return Rotor(name: "IV", wiringString: "ESOVPZJAYQUIRHXLNFTGKDCMWB", notches: ["J"])
+        return Rotor(name: "IV", wiring: "ESOVPZJAYQUIRHXLNFTGKDCMWB", notch: "J")
     }
     
     public static var V: Rotor {
-        return Rotor(name: "V", wiringString: "VZBRGITYUPSDNHLXAWMJQOFECK", notches: ["Z"])
+        return Rotor(name: "V", wiring: "VZBRGITYUPSDNHLXAWMJQOFECK", notch: "Z")
     }
     
     public static var VI: Rotor {
-        return Rotor(name: "VI", wiringString: "JPGVOUMFYQBENHZRDKASXLICTW", notches: ["Z", "M"])
+        return Rotor(name: "VI", wiring: "JPGVOUMFYQBENHZRDKASXLICTW", notch: "ZM")
     }
     
     public static var VII: Rotor {
-        return Rotor(name: "VII", wiringString: "NZJHGRCXMYSWBOUFAIVLPEKQDT", notches: ["Z", "M"])
+        return Rotor(name: "VII", wiring: "NZJHGRCXMYSWBOUFAIVLPEKQDT", notch: "ZM")
     }
     
     public static var VIII: Rotor {
-        return Rotor(name: "VIII", wiringString: "FKQHTLXOCBJSPDZRAMEWNIUYGV", notches: ["Z", "M"])
+        return Rotor(name: "VIII", wiring: "FKQHTLXOCBJSPDZRAMEWNIUYGV", notch: "ZM")
     }
 }

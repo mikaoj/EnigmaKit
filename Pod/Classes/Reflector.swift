@@ -28,23 +28,27 @@ import Foundation
 public class Reflector: Rotor { }
 
 public extension Reflector {
+    public convenience init(name: String, wiring: String) {
+        self.init(name: name, wirings: Array(wiring.characters), notches: [])
+    }
+    
     public static var A: Reflector {
-        return Reflector(name: "A", wiringString: "EJMZALYXVBWFCRQUONTSPIKHGD", notches: [])
+        return Reflector(name: "A", wiring: "EJMZALYXVBWFCRQUONTSPIKHGD")
     }
     
     public static var B: Reflector {
-        return Reflector(name: "B (wide)", wiringString: "YRUHQSLDPXNGOKMIEBFZCWVJAT", notches: [])
+        return Reflector(name: "B (wide)", wiring: "YRUHQSLDPXNGOKMIEBFZCWVJAT")
     }
     
     public static var C: Reflector {
-        return Reflector(name: "C (wide)", wiringString: "FVPJIAOYEDRZXWGCTKUQSBNMHL", notches: [])
+        return Reflector(name: "C (wide)", wiring: "FVPJIAOYEDRZXWGCTKUQSBNMHL")
     }
     
     public static var BThin: Reflector {
-        return Reflector(name: "B (thin)", wiringString: "ENKQAUYWJICOPBLMDXZVFTHRGS", notches: [])
+        return Reflector(name: "B (thin)", wiring: "ENKQAUYWJICOPBLMDXZVFTHRGS")
     }
     
     public static var CThin: Reflector {
-        return Reflector(name: "C (thin)", wiringString: "RDOBJNTKVEHMLFCWZAXGYIPSUQ", notches: [])
+        return Reflector(name: "C (thin)", wiring: "RDOBJNTKVEHMLFCWZAXGYIPSUQ")
     }
 }

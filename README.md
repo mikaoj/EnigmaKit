@@ -8,12 +8,21 @@
 
 ## Usage
 ```swift
-let enigma = Enigma() // Will create an Enigma with an empty plugboard, rotors I, II, III and reflector B (wide).
-let result = enigma.encode("Hello world")
+// Will create an Enigma with an empty plugboard, rotors I, II, III and reflector B (wide).
+let enigma = Enigma()
+// Will output "ILBDA AMTAZ"
+let result = enigma.encode("HELLO WORLD")
+```
+
+```swift
+let enigma = Enigma()
+// "HELLO WORLD"
+let result = enigma.decode("ILBDA AMTAZ")
 ```
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Components
 #### Plugboard
 ```swift
 // Create a plugboard and add a patch between A and D
@@ -22,14 +31,21 @@ plugboard.addPatch(("A", "D"))
 ```
 #### Rotor
 ```swift
-// III rotor
+// III rotor. EnigmaKit comes prebuilt with rotors I-VIII
 let rotor = Rotor.III
 rotor.setting = 5 // Internal ring position
 rotor.position = 6 // Outer ring position
+
+// Or initialize your own
+let rotor = Rotor(name: "My custom rotor", wiring: "VZBRGITYUPSDNHLXAWMJQOFECK", notch: "QV")
 ```
 #### Reflector
 ```swift
-let rotor = Reflector.B
+// EnigmaKit comes with reflector A-C (wide) and B-C (thin)
+let reflector = Reflector.B
+
+// Or you can create your own reflector
+let reflector = Reflector(name: "My custom reflector", wiring: "VZBRGITYUPSDNHLXAWMJQOFECK")
 ```
 #### Enigma
 ```swift

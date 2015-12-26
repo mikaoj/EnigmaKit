@@ -65,11 +65,7 @@ public class Plugboard: Component {
      */
     public func addPatch(patch: Patch) -> Bool {
         // Make sure there are no duplicates
-        for existingPatch in patches {
-            if existingPatch.0 == patch.0 || existingPatch.0 == patch.1 || existingPatch.1 == patch.0 || existingPatch.1 == patch.0 {
-                return false
-            }
-        }
+        if let _ = _patches.indexOfPatch(patch) { return false }
         
         // Add patch
         _patches.append(patch)
@@ -96,5 +92,19 @@ public class Plugboard: Component {
         }
         
         return character
+    }
+}
+
+extension Array {
+    func indexOfPatch(patch: Patch) -> Int? {
+        
+        for i in 0..<count {
+            guard let existingPatch = self[i] as? Patch else { return nil }
+            if existingPatch.0 == patch.0 || existingPatch.0 == patch.1 || existingPatch.1 == patch.0 || existingPatch.1 == patch.0 {
+                return i
+            }
+        }
+        
+        return nil
     }
 }
