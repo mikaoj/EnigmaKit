@@ -20,7 +20,7 @@ let enigma = Enigma()
 let result = enigma.decode("ILBDA AMTAZ")
 ```
 
-𝕿𝖔 𝖗𝖚𝖓 𝖙𝖍𝖊 𝖊𝖝𝖆𝖒𝖕𝖑𝖊 𝖕𝖗𝖔𝖏𝖊𝖈𝖙, 𝖈𝖑𝖔𝖓𝖊 𝖙𝖍𝖊 𝖗𝖊𝖕𝖔, 𝖆𝖓𝖉 𝖗𝖚𝖓 `pod install` 𝖋𝖗𝖔𝖒 𝖙𝖍𝖊 𝕰𝖝𝖆𝖒𝖕𝖑𝖊 𝖉𝖎𝖗𝖊𝖈𝖙𝖔𝖗𝖞 𝖋𝖎𝖗𝖘𝖙.
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## 𝕮𝖔𝖒𝖕𝖔𝖓𝖊𝖓𝖙𝖘
 #### 𝕻𝖑𝖚𝖌𝖇𝖔𝖆𝖗𝖉
@@ -54,11 +54,12 @@ let enigma = Enigma(plugboard: Plugboard(), rotors: [Rotor.III, Rotor.IV, Rotor.
 ```
 
 ## 𝕽𝖊𝖖𝖚𝖎𝖗𝖊𝖒𝖊𝖓𝖙𝖘
-𝕯𝖔𝖓'𝖙 𝖒𝖊𝖓𝖙𝖎𝖔𝖓 𝖙𝖍𝖊 𝖜𝖆𝖗
+Don't mention the war
 
 ## 𝕴𝖓𝖘𝖙𝖆𝖑𝖑𝖆𝖙𝖎𝖔𝖓
 
-𝕰𝖓𝖎𝖌𝖒𝖆𝕶𝖎𝖙 𝖎𝖘 𝖆𝖛𝖆𝖎𝖑𝖆𝖇𝖑𝖊 𝖙𝖍𝖗𝖔𝖚𝖌𝖍 [CocoaPods](http://cocoapods.org). 𝕿𝖔 𝖎𝖓𝖘𝖙𝖆𝖑𝖑 𝖎𝖙, 𝖘𝖎𝖒𝖕𝖑𝖞 𝖆𝖉𝖉 𝖙𝖍𝖊 𝖋𝖔𝖑𝖑𝖔𝖜𝖎𝖓𝖌 𝖑𝖎𝖓𝖊 𝖙𝖔 𝖞𝖔𝖚𝖗 𝕻𝖔𝖉𝖋𝖎𝖑𝖊:
+EnigmaKit is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
 ```ruby
 pod "EnigmaKit"
@@ -66,8 +67,8 @@ pod "EnigmaKit"
 
 ## 𝕬𝖚𝖙𝖍𝖔𝖗
 
-𝕵𝖔𝖆𝖐𝖎𝖒 𝕲𝖞𝖑𝖑𝖘𝖙𝖗ö𝖒, 𝖏𝖔𝖆𝖐𝖎𝖒@𝖇𝖆𝖈𝖐𝖘𝖑𝖆𝖘𝖍𝖊𝖉.𝖘𝖊
+Joakim Gyllström, joakim@backslashed.se
 
 ## 𝕷𝖎𝖈𝖊𝖓𝖘𝖊
 
-𝕰𝖓𝖎𝖌𝖒𝖆𝕶𝖎𝖙 𝖎𝖘 𝖆𝖛𝖆𝖎𝖑𝖆𝖇𝖑𝖊 𝖚𝖓𝖉𝖊𝖗 𝖙𝖍𝖊 𝕸𝕴𝕿 𝖑𝖎𝖈𝖊𝖓𝖘𝖊. 𝕾𝖊𝖊 𝖙𝖍𝖊 𝕷𝕴𝕮𝕰𝕹𝕾𝕰 𝖋𝖎𝖑𝖊 𝖋𝖔𝖗 𝖒𝖔𝖗𝖊 𝖎𝖓𝖋𝖔.
+EnigmaKit is available under the MIT license. See the LICENSE file for more info.
