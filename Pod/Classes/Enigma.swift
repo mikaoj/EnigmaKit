@@ -103,7 +103,7 @@ public class Enigma {
     }
     
     func increment(rotors: [Rotor]) {
-        var incrementNext: Bool = true
+        var incrementNext = true
         for rotor in rotors {
             // If there are notches at the current position, increment next
             let character = Enigma.Alphabet[rotor.position]
@@ -111,13 +111,9 @@ public class Enigma {
             
             // Increment position for this rotor if previous rotor told us to do so
             // Or if we are at a notch (double step)
-            var newPosition = rotor.position
-            if incrementNext || atNotch {
-                newPosition = rotor.position + 1
-            }
+            if incrementNext || atNotch { rotor++ }
             
-            // Set new position
-            rotor.position = newPosition
+            // Next
             incrementNext = atNotch
         }
     }

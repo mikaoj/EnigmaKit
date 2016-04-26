@@ -86,6 +86,21 @@ public class Rotor: Component {
     }
 }
 
+extension Rotor: Equatable {}
+
+public func == (lhs: Rotor, rhs: Rotor) -> Bool {
+    return
+        lhs.name == rhs.name
+        lhs.wiring == rhs.wiring &&
+        lhs.notches == rhs.notches &&
+        lhs.position == rhs.position &&
+        lhs.setting == rhs.setting
+}
+
+public postfix func ++ (rotor: Rotor) {
+    rotor.position += 1
+}
+
 public extension Rotor {
     // Convenience initializer
     public convenience init(name: String, wiring: String, notch: String) {
