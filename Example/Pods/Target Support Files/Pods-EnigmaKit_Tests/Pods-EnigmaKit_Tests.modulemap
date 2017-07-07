@@ -1,6 +1,0 @@
-framework module Pods_EnigmaKit_Tests {
-  umbrella header "Pods-EnigmaKit_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "EnigmaKit"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "Enigma encryption in Swift."
   s.description      = <<-DESC
   Enigma encryption/decryption in Swift.
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
   
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Sources/EnigmaKit/*'
 end

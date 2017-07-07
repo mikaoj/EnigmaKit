@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"EnigmaKit::EnigmaKitPackageTests::ProductTarget" /* EnigmaKitPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_33 /* Build configuration list for PBXAggregateTarget "EnigmaKitPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_36 /* PBXTargetDependency */,
+			);
+			name = EnigmaKitPackageTests;
+			productName = EnigmaKitPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		F4036A101EFECBC500D64F9E /* WheelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4036A0F1EFECBC500D64F9E /* WheelTests.swift */; };
+		F4036A111EFECD1F00D64F9E /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4036A0D1EFEC26100D64F9E /* Wheel.swift */; };
+		F4036A121EFEDD2A00D64F9E /* Rotor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4036A091EFEAB1600D64F9E /* Rotor.swift */; };
+		F4036A141EFEE50200D64F9E /* RotorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4036A131EFEE50200D64F9E /* RotorTests.swift */; };
+		F488F71D1F002207006C2F5A /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488F71B1F0021F5006C2F5A /* Array.swift */; };
+		F488F71F1F004A3B006C2F5A /* Plugboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488F71E1F004A3B006C2F5A /* Plugboard.swift */; };
+		F488F7211F004DE2006C2F5A /* PlugboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488F7201F004DE2006C2F5A /* PlugboardTests.swift */; };
+		F4B515241F078FA400F68A1A /* Enigma.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B515231F078FA400F68A1A /* Enigma.swift */; };
+		F4B5152A1F0D063900F68A1A /* Spindle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B515291F0D063900F68A1A /* Spindle.swift */; };
+		F4B5152C1F0D877800F68A1A /* SpindleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B5152B1F0D877800F68A1A /* SpindleTests.swift */; };
+		F4B5152E1F10110300F68A1A /* EnigmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B5152D1F10110300F68A1A /* EnigmaTests.swift */; };
+		F4F7CAB01F0780C5007E0B1C /* Reflector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7CAAF1F0780C5007E0B1C /* Reflector.swift */; };
+		F4F7CAB31F0782AA007E0B1C /* ReflectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7CAB11F0782A8007E0B1C /* ReflectorTests.swift */; };
+		OBJ_23 /* EnigmaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "EnigmaKit::EnigmaKit::Product" /* EnigmaKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4CE7A141EF5F657009A32FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "EnigmaKit::EnigmaKit";
+			remoteInfo = EnigmaKit;
+		};
+		F4CE7A151EF5F658009A32FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "EnigmaKit::EnigmaKitTests";
+			remoteInfo = EnigmaKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"EnigmaKit::EnigmaKit::Product" /* EnigmaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EnigmaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"EnigmaKit::EnigmaKitTests::Product" /* EnigmaKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = EnigmaKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4036A091EFEAB1600D64F9E /* Rotor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotor.swift; sourceTree = "<group>"; };
+		F4036A0D1EFEC26100D64F9E /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		F4036A0F1EFECBC500D64F9E /* WheelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelTests.swift; sourceTree = "<group>"; };
+		F4036A131EFEE50200D64F9E /* RotorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotorTests.swift; sourceTree = "<group>"; };
+		F488F71B1F0021F5006C2F5A /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		F488F71E1F004A3B006C2F5A /* Plugboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plugboard.swift; sourceTree = "<group>"; };
+		F488F7201F004DE2006C2F5A /* PlugboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlugboardTests.swift; sourceTree = "<group>"; };
+		F4B515231F078FA400F68A1A /* Enigma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enigma.swift; sourceTree = "<group>"; };
+		F4B515291F0D063900F68A1A /* Spindle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spindle.swift; sourceTree = "<group>"; };
+		F4B5152B1F0D877800F68A1A /* SpindleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpindleTests.swift; sourceTree = "<group>"; };
+		F4B5152D1F10110300F68A1A /* EnigmaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnigmaTests.swift; sourceTree = "<group>"; };
+		F4F7CAAF1F0780C5007E0B1C /* Reflector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reflector.swift; sourceTree = "<group>"; };
+		F4F7CAB11F0782A8007E0B1C /* ReflectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectorTests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_23 /* EnigmaKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* EnigmaKitTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* EnigmaKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4036A0F1EFECBC500D64F9E /* WheelTests.swift */,
+				F4036A131EFEE50200D64F9E /* RotorTests.swift */,
+				F488F7201F004DE2006C2F5A /* PlugboardTests.swift */,
+				F4F7CAB11F0782A8007E0B1C /* ReflectorTests.swift */,
+				F4B5152B1F0D877800F68A1A /* SpindleTests.swift */,
+				F4B5152D1F10110300F68A1A /* EnigmaTests.swift */,
+			);
+			name = EnigmaKitTests;
+			path = Tests/EnigmaKitTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"EnigmaKit::EnigmaKitTests::Product" /* EnigmaKitTests.xctest */,
+				"EnigmaKit::EnigmaKit::Product" /* EnigmaKit.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* EnigmaKit */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* EnigmaKit */ = {
+			isa = PBXGroup;
+			children = (
+				F4036A0D1EFEC26100D64F9E /* Wheel.swift */,
+				F4036A091EFEAB1600D64F9E /* Rotor.swift */,
+				F488F71B1F0021F5006C2F5A /* Array.swift */,
+				F488F71E1F004A3B006C2F5A /* Plugboard.swift */,
+				F4F7CAAF1F0780C5007E0B1C /* Reflector.swift */,
+				F4B515231F078FA400F68A1A /* Enigma.swift */,
+				F4B515291F0D063900F68A1A /* Spindle.swift */,
+			);
+			name = EnigmaKit;
+			path = Sources/EnigmaKit;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"EnigmaKit::EnigmaKit" /* EnigmaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_26 /* Build configuration list for PBXNativeTarget "EnigmaKit" */;
+			buildPhases = (
+				OBJ_29 /* Sources */,
+				OBJ_31 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnigmaKit;
+			productName = EnigmaKit;
+			productReference = "EnigmaKit::EnigmaKit::Product" /* EnigmaKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"EnigmaKit::EnigmaKitTests" /* EnigmaKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_17 /* Build configuration list for PBXNativeTarget "EnigmaKitTests" */;
+			buildPhases = (
+				OBJ_20 /* Sources */,
+				OBJ_22 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_24 /* PBXTargetDependency */,
+			);
+			name = EnigmaKitTests;
+			productName = EnigmaKitTests;
+			productReference = "EnigmaKit::EnigmaKitTests::Product" /* EnigmaKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					"EnigmaKit::EnigmaKit" = {
+						LastSwiftMigration = 0900;
+					};
+					"EnigmaKit::EnigmaKitTests" = {
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "EnigmaKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"EnigmaKit::EnigmaKitTests" /* EnigmaKitTests */,
+				"EnigmaKit::EnigmaKit" /* EnigmaKit */,
+				"EnigmaKit::EnigmaKitPackageTests::ProductTarget" /* EnigmaKitPackageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				F4B5152E1F10110300F68A1A /* EnigmaTests.swift in Sources */,
+				F4F7CAB31F0782AA007E0B1C /* ReflectorTests.swift in Sources */,
+				F4036A141EFEE50200D64F9E /* RotorTests.swift in Sources */,
+				F4036A101EFECBC500D64F9E /* WheelTests.swift in Sources */,
+				F4B5152C1F0D877800F68A1A /* SpindleTests.swift in Sources */,
+				F488F7211F004DE2006C2F5A /* PlugboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				F4F7CAB01F0780C5007E0B1C /* Reflector.swift in Sources */,
+				F488F71D1F002207006C2F5A /* Array.swift in Sources */,
+				F488F71F1F004A3B006C2F5A /* Plugboard.swift in Sources */,
+				F4B515241F078FA400F68A1A /* Enigma.swift in Sources */,
+				F4036A111EFECD1F00D64F9E /* Wheel.swift in Sources */,
+				F4036A121EFEDD2A00D64F9E /* Rotor.swift in Sources */,
+				F4B5152A1F0D063900F68A1A /* Spindle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "EnigmaKit::EnigmaKit" /* EnigmaKit */;
+			targetProxy = F4CE7A141EF5F657009A32FA /* PBXContainerItemProxy */;
+		};
+		OBJ_36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "EnigmaKit::EnigmaKitTests" /* EnigmaKitTests */;
+			targetProxy = F4CE7A151EF5F658009A32FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EnigmaKit.xcodeproj/EnigmaKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = EnigmaKitTests;
+			};
+			name = Debug;
+		};
+		OBJ_19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EnigmaKit.xcodeproj/EnigmaKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = EnigmaKitTests;
+			};
+			name = Release;
+		};
+		OBJ_27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EnigmaKit.xcodeproj/EnigmaKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = EnigmaKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = EnigmaKit;
+			};
+			name = Debug;
+		};
+		OBJ_28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = EnigmaKit.xcodeproj/EnigmaKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = EnigmaKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = EnigmaKit;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_17 /* Build configuration list for PBXNativeTarget "EnigmaKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_18 /* Debug */,
+				OBJ_19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "EnigmaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_26 /* Build configuration list for PBXNativeTarget "EnigmaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_27 /* Debug */,
+				OBJ_28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_33 /* Build configuration list for PBXAggregateTarget "EnigmaKitPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_34 /* Debug */,
+				OBJ_35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

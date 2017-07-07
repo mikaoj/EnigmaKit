@@ -1,6 +1,0 @@
-framework module EnigmaKit {
-  umbrella header "EnigmaKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
