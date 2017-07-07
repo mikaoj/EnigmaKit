@@ -31,12 +31,20 @@ public struct Rotor {
   public var name: String
   public var notches: [Character]
   public var position: Int
+  public var setting: Int {
+    get {
+      return wheel.setting
+    }
+    set {
+      wheel.setting = newValue
+    }
+  }
   var wheel: Wheel
 
-  public init(name: String, wiring: [Character], notch: [Character], position: Int = 0) {
+  public init(name: String, wiring: [Character], notch: [Character], position: Int = 0, setting: Int = 0) {
     self.name = name
     self.notches = notch
-    self.wheel = try! Wheel(inner: wiring)
+    self.wheel = try! Wheel(inner: wiring, setting: setting)
     self.position = position
   }
 
@@ -87,7 +95,7 @@ extension Rotor: Equatable {
 
 extension Rotor {
   // Convenience initializer
-  private init(name: String, wiring: String, notch: String) {
+  public init(name: String, wiring: String, notch: String) {
     self.init(name: name, wiring: Array(wiring.characters), notch: Array(notch.characters))
   }
 

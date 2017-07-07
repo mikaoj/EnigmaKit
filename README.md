@@ -27,21 +27,21 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ```swift
 // Create a plugboard and add a patch between A and D
 let plugboard = Plugboard()
-plugboard.addPatch(("A", "D"))
+plugboard.add(("A", "D"))
 ```
 #### 𝕽𝖔𝖙𝖔𝖗
 ```swift
 // III rotor. EnigmaKit comes prebuilt with rotors I-VIII
 let rotor = Rotor.III
-rotor.setting = 5 // Internal ring position
-rotor.position = 6 // Outer ring position
+rotor.setting = 5 // Ringstellung
+rotor.position = 6 // Grundstellung
 
 // Or initialize your own
 let rotor = Rotor(name: "My custom rotor", wiring: "VZBRGITYUPSDNHLXAWMJQOFECK", notch: "QV")
 ```
 #### 𝕽𝖊𝖋𝖑𝖊𝖈𝖙𝖔𝖗
 ```swift
-// EnigmaKit comes with reflector A-C (wide) and B-C (thin)
+// EnigmaKit comes with reflectors A-C (wide) and B-C (thin)
 let reflector = Reflector.B
 
 // Or you can create your own reflector
@@ -50,7 +50,7 @@ let reflector = Reflector(name: "My custom reflector", wiring: "VZBRGITYUPSDNHLX
 #### 𝕰𝖓𝖎𝖌𝖒𝖆
 ```swift
 // Create an enigma with your own plugboard, rotors and reflector of choice
-let enigma = Enigma(plugboard: Plugboard(), rotors: [Rotor.III, Rotor.IV, Rotor.II], reflector: Reflector.C)
+let enigma = Enigma(reflector: Reflector.C, rotors: [Rotor.III, Rotor.IV, Rotor.II], plugboard: Plugboard())
 ```
 
 ## 𝕽𝖊𝖖𝖚𝖎𝖗𝖊𝖒𝖊𝖓𝖙𝖘
@@ -58,12 +58,7 @@ Don't mention the war
 
 ## 𝕴𝖓𝖘𝖙𝖆𝖑𝖑𝖆𝖙𝖎𝖔𝖓
 
-EnigmaKit is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "EnigmaKit"
-```
+EnigmaKit is available through [Swift Package Manager](https://swift.org/package-manager/), [CocoaPods](http://cocoapods.org).
 
 ## 𝕬𝖚𝖙𝖍𝖔𝖗
 
