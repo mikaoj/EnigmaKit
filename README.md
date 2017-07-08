@@ -19,9 +19,6 @@ let enigma = Enigma()
 // "HELLO WORLD"
 let result = enigma.encode("ILBDA AMTAZ")
 ```
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## 𝕮𝖔𝖒𝖕𝖔𝖓𝖊𝖓𝖙𝖘
 #### 𝕻𝖑𝖚𝖌𝖇𝖔𝖆𝖗𝖉
 ```swift
