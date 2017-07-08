@@ -17,7 +17,7 @@ let result = enigma.encode("HELLO WORLD")
 ```swift
 let enigma = Enigma()
 // "HELLO WORLD"
-let result = enigma.decode("ILBDA AMTAZ")
+let result = enigma.encode("ILBDA AMTAZ")
 ```
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
