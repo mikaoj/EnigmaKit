@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "EnigmaKit"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "Enigma encryption in Swift."
   s.description      = <<-DESC
   Enigma encryption/decryption in Swift.
