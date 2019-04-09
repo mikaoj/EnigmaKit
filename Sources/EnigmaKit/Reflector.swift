@@ -28,7 +28,7 @@ public struct Reflector {
 
   public init(name: String, wiring: String) {
     self.name = name
-    self.wheel = try! Wheel(inner: Array(wiring.characters))
+    self.wheel = try! Wheel(inner: Array(wiring))
   }
 }
 

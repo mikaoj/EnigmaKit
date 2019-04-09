@@ -74,13 +74,13 @@ extension Rotor {
 
   private func code(_ character: Character, coder: (Character) -> Character) -> Character {
     // Get index of character
-    guard let inputIndex = wheel.outer.index(of: character) else { return character }
+    guard let inputIndex = wheel.outer.firstIndex(of: character) else { return character }
 
     // Encode character at that index + offset
     let c = coder(wheel.outer[wrap: inputIndex + position])
 
     // Get index of encoded character
-    guard let outputIndex = wheel.outer.index(of: c) else { return character }
+    guard let outputIndex = wheel.outer.firstIndex(of: c) else { return character }
 
     // Aaand return character at that index - offset
     return wheel.outer[wrap: outputIndex - position]
@@ -96,7 +96,7 @@ extension Rotor: Equatable {
 extension Rotor {
   // Convenience initializer
   public init(name: String, wiring: String, notch: String) {
-    self.init(name: name, wiring: Array(wiring.characters), notch: Array(notch.characters))
+    self.init(name: name, wiring: Array(wiring), notch: Array(notch))
   }
 
   public static var I: Rotor {

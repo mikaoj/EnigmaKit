@@ -57,7 +57,7 @@ extension Wheel: Equatable {
 extension Wheel {
   func encode(_ character: Character) -> Character {
     // Get index of character
-    guard let index = outer.index(of: character) else { return character }
+    guard let index = outer.firstIndex(of: character) else { return character }
 
     // Return character from inner with offseted index. Make sure not to go over bounds
     return inner[wrap: index + setting]
@@ -65,7 +65,7 @@ extension Wheel {
 
   func decode(_ character: Character) -> Character {
     // Get index of character
-    guard let index = inner.index(of: character) else { return character }
+    guard let index = inner.firstIndex(of: character) else { return character }
 
     // Return character from inner with offseted index. Make sure not to go under bounds
     return outer[wrap: index - setting]
